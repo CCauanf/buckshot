@@ -8,8 +8,6 @@
 #define danoBala 1
 #define vidaMax 4
 
-//Buckshot
-
 int   comeco, maxBalas, qtdBalas, botTiro, balasVerdadeiras, vidaPlayer, vidaBot, rodada;
 float chanceDeAcerto;
 char  respostaTiro;
