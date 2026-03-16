@@ -1,15 +1,24 @@
-# Buckshot
+# Buckshot Roulette Clone (C)
 
-### Créditos:
-https://store.steampowered.com/app/2835570/Buckshot_Roulette/
-https://en.wikipedia.org/wiki/Buckshot_Roulette
+### 🎓 Context
+This project is a CLI (Command Line Interface) adaptation of the viral horror game **Buckshot Roulette**. Developed in collaboration with [@ycborg](https://github.com/ycborg), it focuses on game logic, state management, and probability-based decision-making.
 
-### Colaboradores:
-https://github.com/ycborg
-https://github.com/CCauanf
+### 🚀 Features
+* **Probability Engine:** Real-time calculation of hit chances based on remaining shells in the magazine.
+* **Smart-ish BOT:** An automated opponent that makes decisions (shooting itself or the player) based on randomized AI logic.
+* **Health System:** Implementation of life points for both player and bot, managing the game loop until a "Game Over" state.
+* **Randomized Rounds:** Each round reloads the shotgun with a random number of live and blank shells, mimicking the original game's tension.
 
-### Descrição:
-É um minigame baseado em um jogo que viralizou recentemente, o "Buckshot Roulette".
+### 🛠️ Technical Details
+* **Pseudo-randomness:** Extensive use of `srand(time(0))` and `rand()` to ensure unpredictable gameplay.
+* **Game State Control:** Managed through nested loops and conditional logic to handle turn-switching and chamber depletion.
+* **Cross-platform Clears:** System calls optimized for both Windows (`cls`) and Linux/macOS (`clear`).
 
-### Como usar?
-Primeiramente, crie o executável do código com a ajuda do 'makefile'; basta digitar no terminal 'make all'. Em seguida, digite './buckshot' no terminal.
+### 💻 How to run
+1. **Compile** using the provided Makefile:
+   ```bash
+   make all
+
+1. **Run** the executable:
+   ```bash
+   ./buckshot
