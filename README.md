@@ -19,6 +19,9 @@ This project is a CLI (Command Line Interface) adaptation of the viral horror ga
    ```bash
    make all
 
-1. **Run** the executable:
+2. **Run** the executable:
    ```bash
    ./buckshot
+### 🔗 Credits
+* Inspired by the original game by **Mike Klubnika**.
+* Check the original game on [Steam](https://store.steampowered.com/app/2835570/Buckshot_Roulette/).
